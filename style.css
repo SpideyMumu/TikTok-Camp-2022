@@ -1,0 +1,60 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#submit {
+    cursor: pointer;
+    border-radius: 8px;
+    color: #eee;
+    background-color: #18ca33;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#submit:hover{
+    background-color: #158b27;
+}
+
+
+.showcase {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.showcase video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.title {
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-size: 100px;
+    color: #fff;
+    mix-blend-mode: multiply;
+}
+
+h1 {
+    color: #0066fc;
+}
+
+abbr {
+    display: contents;
+  }
+
+table,
+tr,
+th,
+td,
+caption {
+    border: 1px solid #eee;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
+
+
